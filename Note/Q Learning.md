@@ -21,7 +21,7 @@
 - Update the Q table after taken an action, arrived at a new state 
 - Update formulation:
 
-$Q(s,a) \gets Q(s,a) + \alpha[r + \gamma max_{a^'}]$
+$Q(s,a) \gets Q(s,a) + \alpha[r + \gamma max_{a^{'}}]$
 
 ---
 ### References
