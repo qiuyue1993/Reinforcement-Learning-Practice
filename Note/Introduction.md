@@ -1,7 +1,7 @@
 ## Introduction
 
 ### Indexing:
-- [Class of Reinforcement Learning](Class-of-Reinforcement-Learning)
+- [Class of Reinforcement Learning](#Class-of-Reinforcement-Learning)
 - [RL Methods](#RL-Methods)
 - [References](#References)
 
