@@ -21,6 +21,7 @@
 ---
 ### Sarsa Update
 - Update formulation
+
 $(1) Q(s,a) \gets Q(s,a) + \alpha[r + \gamma Q(s^{'},a^{'}) - Q(s,a)]$
 
 ```
