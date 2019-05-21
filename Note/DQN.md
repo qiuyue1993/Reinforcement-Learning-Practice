@@ -32,7 +32,7 @@ Initialize action-value function $Q$ with random weights $\theta$
 
 Initialize target action-value function $\hat{Q}$ and weights $\theta^{-}=\theta$
 
-**For** episode = 1, M **do**
+**For** $episode = 1, M$ **do**
 
 $\quad$ Initialize sequence $s_1 = \{x_1\}$ and preprocessed sequence $\phi_1 = \phi(s_1)$
 
