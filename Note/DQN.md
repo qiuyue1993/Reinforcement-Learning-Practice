@@ -3,7 +3,7 @@
 ### Indexing:
 - [Why Nerual Network](#Why-Neural-Network)
 - [Update](#Update)
-- [Algorithm](#Algotrithm)
+- [Algorithm](#Algorithm)
 - [Important ideas of DQN](Important-ideas-of-DQN)
 - [References](#References)
 
@@ -23,7 +23,7 @@
 - Q-real for every action
 - Update: new params = old params + $\alpha$(Q-real - Q-prediction)
 ---
-### Algotrithm
+### Algorithm
 **Deep Q-learning with experience replay**
 
 Initialize replay memory D to capacity N
