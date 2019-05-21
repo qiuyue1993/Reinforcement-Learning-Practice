@@ -39,7 +39,7 @@ $\quad$ Initialize sequence $s_1 = \{x_1\}$ and preprocessed sequence $\phi_1 = 
 $\quad$ **For** $t=1, T$ **do**
 
 $\qquad$ With probability $\epsilon$ select a random action $a_t$
-
+$\qquad$ otherwise select $a_t = argmax_aQ(\phi(s_t),a;\theta)$
 
 
 ---
