@@ -17,6 +17,7 @@
 ---
 ### Algorithm
 *Deep Q Learning*
+
 $Q_{real}$: $Y_t^{DQN}\equiv R_{t+1} + \gamma max_a Q(S_{t+1},a; \theta^{-})$ 
 
 Updating: $\alpha (Q_{real} - Q_{eval})$ = $\alpha (R_{t+1} + \gamma Q(S_{t+1},a; \theta^{-}) - Q(s,a;\theta_t))$
