@@ -10,6 +10,7 @@
 - Split Q-value to value and advantage
 
 *Formulation*
+
 $Q(s,a; \theta, \alpha, \beta) = V(s;\theta,\beta) + A(s,a;\theta, \alpha)$
 
 ---
