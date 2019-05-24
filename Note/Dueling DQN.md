@@ -8,6 +8,8 @@
 ### Introduction
 *What is dueling DQN*
 - Split Q-value to value and advantage
+- Value: irrelevant to action
+- Advantage: relevant to action
 
 *Formulation*
 
