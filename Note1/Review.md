@@ -79,6 +79,11 @@
 *Core Idea*
 - Backpropagating to increase the propabilities to be chosen of actions with high reward but low propabilities
 
+*Algorithm*
+
+<img src="https://github.com/qiuyue1993/Reinforcement-Learning-Practice/blob/master/Images/Policy-Gradient_Base-Algorithm.png" width="600" hegiht="400" align=center/>
+
+
 ---
 ## Comments
 - Model-based methods is better?!
