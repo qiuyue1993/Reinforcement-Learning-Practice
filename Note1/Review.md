@@ -71,6 +71,14 @@
 - Break the value of action to a value of state and a value of action
 - This helps a lot while choosing action do not have much influence on the result
 
+### Policy Gradients
+- Propability-based
+- Turn Update
+- Enables to choose action sequence, not just discrete actions 
+
+*Core Idea*
+- Backpropagating to increase the propabilities to be chosen of actions with high reward but low propabilities
+
 ---
 ## Comments
 - Model-based methods is better?!
