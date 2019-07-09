@@ -75,6 +75,7 @@
 - Propability-based
 - Turn Update
 - Enables to choose action sequence, not just discrete actions 
+- Not really need the epsilon-greedy
 
 *Core Idea*
 - Backpropagating to increase the propabilities to be chosen of actions with high reward but low propabilities
@@ -83,7 +84,9 @@
 
 <img src="https://github.com/qiuyue1993/Reinforcement-Learning-Practice/blob/master/Images/Policy-Gradient_Base-Algorithm.png" width="600" hegiht="400" align=center/>
 
-
+*Coding Process*
+- store_transition(observation, action, reward): save the transition of every step
+- discount and norm reward of every turn
 ---
 ## Comments
 - Model-based methods is better?!
@@ -92,7 +95,8 @@
 - Actor-Critic Model is better?
 - **Policy Gradient** is difficult to learn??!!
 
-- 
+- For policy gradient, updating by turn means that agent won't learn while stepping?!
+
 ---
 ## References
 - [Morvan PYTHON](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/)
